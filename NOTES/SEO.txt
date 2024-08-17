@@ -1,0 +1,39 @@
+SEO - Search Engine Optimization
+
+SG => Google, Yahoo, Bing 
+Google - main business Search Engine so every company needs to rank in google
+Google has some algo for rankings => called BOT(like spider)
+
+Bot put score for our website
+
+Ranking 
+-Organic Approach (Ranks by SEO with help of BOT/spider)
+-Inorganic Approach (paid)
+
+Bot ku namba solnum indha content dhan namba potrukonu (Eg: content related to ur website like restaurant)
+So we are using 
+Head - 60% of SEO by META Tag 
+Body - 40% of SEO by Semantic tag
+
+Meta Tags
+-Head
+-Title
+-link
+
+<meta name="author" content="Maha"/> // Info about developer name
+<meta name="description" content="Top 10 Dosa in Mayiladuthurai"/> // Content doesn't go beyound 256 characters otherwise it will show like...
+<meta name="Keyword" content="dosa, best Dosa, Tasty dosa"/>
+
+
+
+        Semantic Tags
+<header> => Logo with their links
+<nav> => nav should be inside header, for navigation
+<main> => This content should be read by bot, indha content kandipa bot padiknumnaa adha main tag kulla podnum
+<article> => Keyword repeat aana bot negative ah score panidum so article kulla andha content wrap pannanumnu
+<footer>
+<section>
+
+
+
+ 

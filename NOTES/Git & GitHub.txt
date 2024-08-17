@@ -1,0 +1,40 @@
+Git & Github Same ?
+    No, Both are not Same
+
+Problem :
+We can't go back previous day code
+No code Backup
+
+So they itroduced Version Control system(VCS) to save day to day code
+
+Version Control System 
+- Local version control System => Code --Save into--> Local Repo in your Laptop using GIT 
+Machine problem mean Code gone So, CVCS introduced
+- Centralized Version Control system => Code --Save into--> Server using GIT, download it for next day use
+Server Hacked mean code gone
+- Distributed Version Control system => Code --- Saved locally (GIT) --- Then save it to the Server (Github)  
+
+
+LVCS - GIT
+CVCS - Server
+DVCS - Git + Github
+
+Terminal
+code .
+git -v => version about Github
+
+Recycle bin la delete aanalum git use pani save panna epdi retrive panradhu paapom
+
+Process :
+1st Command : git init
+Initialize a git Local repositary, indha command potona normal directory converted into working directory
+.git folder will be hidden => namba kai thavari dlt pana kudadhunu hide aagiruku 
+
+2nd Command: git add . or git add filename (. => All files) (filename => specified )
+Working dir file la ipo git(local repo) la save pannanum
+Working directory la irudhu direct ah local repo la save pana mudiyadhu bcz structure iruku wd la irundhu staging area la save pannanum then only local repo la save pananum
+
+Working Directory => Staging Area => Local repo
+
+3rd Command : git commit -m
+commit - save,  m-message (message must be given bbcz it is version control purpsoe should be defined well)

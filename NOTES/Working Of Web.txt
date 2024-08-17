@@ -1,0 +1,60 @@
+        Day 1
+
+Basic 5 terminology in Web :
+
+Protocols : Set of Rules to communicate b/w two applications (client and server)
+
+Client --(request)--> Server --(request)--> Database 
+Database --(response)--> Server --(response)--> Client 
+
+Every requests respond through API (Eg: Hotel Waiter)
+
+Web - https(SECURED(LOCKED)),http
+
+IP Address : Internet Protocol, Unique 
+
+FORMAT => (0-255.0-255.0-255.0-255) 
+Example : 198.180.1.1
+
+To get ip address of the site - ping http//google.com
+
+
+Two types of IP Address:
+1) Public IP --> important
+2) Private IP
+
+Website can be accessed by IP address but it's hard to memorise so we are accessing it using the domain name (Eg: google.com)
+Domain Registars will provide domain name
+
+DNS MAPPING : 
+Public Ip         Domain name
+142.250.182.68     Wiki.com
+
+We can acess server by using public IP address but users cannot memorise ip address to access the website so we have to use Domain then DNS process has to done manually
+
+
+Working of Website : 
+Client ---(Domain name)---->DNS  // Client req server DNS will return IP address to the client after that only request sent to server
+DNS ---(IP Address)----> Client
+Client ---(Request)--->Server
+So, Public IP is very important 
+        URL
+Uniform Resource locator => https://www.google.com/ hello.html
+                            |          |            |
+                        Protocol  DomainNameOf(IP)  Path (A page in webpage)
+
+When path is empty server will return index.html as default
+
+Domain name - www.swiggy.com
+                    |     |
+                   Name Top Level Domain(TLD)
+sub domain = oru domain purchase panirkomnaa name ku munadi evlo words venalum potuklaam (eg: auth.swiggy.com)
+Same IP addrress can be mapped with many subdomains 
+
+
+
+
+
+
+
+

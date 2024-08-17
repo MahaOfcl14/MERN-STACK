@@ -1,0 +1,97 @@
+HTML - hyper text markup language
+-Text
+-Media
+-Meta
+-Semantic
+
+Why HTML ? Content
+
+Two types of Content 
+- Text based content - paragraph, heading
+- Media based Content - image, video, audio 
+
+
+Why index.html is name for every html page => bcoz server will responds to the index.html as default page when there is no path name, 
+If index.html is not available mean 404 error will show
+Everything is tag in HTML
+
+
+EXTENSIONS :
+Auto - closing tag => Extension
+Live server => Without hard refresh
+
+1) Element - p
+2) Tags - <p></p>
+3) Attributes - href=''
+
+DOCTYPE html => HTML 5(To mention the version of HTML)
+
+Text Based Tag:
+heading - <h1> to <h6>
+paragraph - <p>
+button - <button>Click</button>
+
+To highlight the word - <strong></strong>
+
+These tags used widely 
+
+Anchor Tags: 
+<a href="Path">NameOfTheLink</a> => It is used for navigation
+
+List:
+Ordered list 
+Unordered list 
+
+Forms :
+<input/> => selfclosing Tag
+type = email, pwd
+<input type="email"/>
+Label = name for text field
+<Label >Email </Label>
+<input type="email"/>
+Label doesn't know,,, endha input oda map aagnum theriyadhu SO Edhula irundhu edha map pannanumnu kuduknum..(FOR, ID)
+<Label for="email">Email </Label>
+<input type="email" id="email"/>  // id and for should be Same
+Submit kudutha work aagnum so wrap all inside the form
+
+
+Emmet => Shortcut to create boiler plate
+! or html:5
+
+        MEDIA BASED TAGS
+
+
+Image - Self closing tag, having 2 Attributes called src and alt
+ <img src="Path" />
+ if any mistake in path mean we have to give alt
+ <img src='' alt=""/>
+
+ Alt is very important than src
+
+Image can be render through 2 ways
+-via Local storage
+-via CDN (image loaded from nearest server will cause less time to load)
+
+Cloudmary , imagekit.io 
+Rendering image through link mean => Copy the image without updated value coz it change with time to time 
+
+AUDIO
+<audio src="Path" control></audio>
+control is spcl attribute in audio
+        Audio can be render through 2 ways
+-via Local storage
+-via CDN
+
+VIDEO
+<video src="Path" control></video>
+control is spcl attribute in video
+        Video can be render through 2 ways
+-via Local storage
+-via CDN
+
+Entity in HTML : 
+To use special characters in HTML 
+
+
+
+
