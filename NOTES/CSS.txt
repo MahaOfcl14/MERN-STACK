@@ -1,0 +1,75 @@
+CSS - Cascading stylesheets
+Why css?
+
+To design the structure of html
+
+To Link CSS : 
+link:css (emmet)
+
+Selectors and Declarations :
+
+Selectors : It helps to select the HTML to stylesheets
+-Class
+-id
+-Tag or Element
+-universal
+-pesudo
+
+CLASS :(.)
+.heading{
+    color : green; //Declaration 1
+    padding : 0px; //declaration 2
+    }
+.paragraph{
+    color : red; //declaration 1
+}
+
+Each properties are called declaration
+
+Color picker - FOR COLORS
+                            
+Color properties :           
+1) color : value (red,blue)  
+2) color : hex(#000)         
+3) color : rgb[(255,255,255)]
+
+
+Color extension in chrome - Pick color eyedropper
+
+
+Text properties
+Font - size varying, font chan
+1) Font Family 
+    -Default Font - "Times New Roman"
+    -Custom Font  - "poppins", sans-serif
+        -WHAT FONT Extension
+        For font customization we hae two steps 
+            -via CDN => Google fonts ---> copy the link import it before linking css in html
+                        If this font doesn't works mean, default font execute aagum, namba kudukra font double quotes la irukum, default font apdiye irukum
+                        Font can link in HTML and Font will import in CSS
+            -via local storage => download the font
+Select it using selector
+
+2) Font size
+    -px => pixels
+    -rem, em => 1 rem, em = 16px
+    -viewport
+
+3) Font Weight 
+    - 100 upto 900 (No value of 1000)
+
+4) Text decoration 
+    -Underline
+    -Strike through
+
+5) Text ALignment
+    -start
+    -center
+    -end
+
+
+
+Text properties
+
+
+Colors and Background

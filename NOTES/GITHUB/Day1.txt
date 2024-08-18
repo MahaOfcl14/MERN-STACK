@@ -15,8 +15,8 @@ Server Hacked mean code gone
 - Distributed Version Control system => Code --- Saved locally (GIT) --- Then save it to the Server (Github)  
 
 
-LVCS - GIT
-CVCS - Server
+LVCS - GIT => .git will created (nickname - master) Nickname can be anything
+CVCS - Server (nickname - origin) Nickname can be anything
 DVCS - Git + Github
 
 Terminal
@@ -26,6 +26,7 @@ git -v => version about Github
 Recycle bin la delete aanalum git use pani save panna epdi retrive panradhu paapom
 
 Process :
+
 1st Command : git init
 Initialize a git Local repositary, indha command potona normal directory converted into working directory
 .git folder will be hidden => namba kai thavari dlt pana kudadhunu hide aagiruku 
@@ -38,3 +39,25 @@ Working Directory => Staging Area => Local repo
 
 3rd Command : git commit -m
 commit - save,  m-message (message must be given bbcz it is version control purpsoe should be defined well)
+
+--------LVCS completed----------
+If new to git hub Configure This
+git config --global user.name "MahaOfcl14"
+
+To attain DVCS 
+
+4th Command : git remote add origin URL
+Connection from local repo to remote repo
+URL
+-https 
+-SSH - Configuration pananum
+Connection successfully made , Now have to upload
+
+5th Command : git push 
+first time git ku theriyadhu so error varum, namba dhan enga irundhu enga upload aagudhu solanum
+So, use THIS COMMAND
+git push -u origin master
+(origin-github, master - LVCS)
+-----------------------------------------------
+
+
