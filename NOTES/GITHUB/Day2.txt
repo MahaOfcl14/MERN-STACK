@@ -1,0 +1,4 @@
+Ella file um ipo staging area la podnum
+so git add .
+
+ipo add pannanum 
