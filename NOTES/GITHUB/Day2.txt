@@ -1,4 +1,1 @@
-Ella file um ipo staging area la podnum
-so git add .
-
-ipo add pannanum 
+git log - to get data about previous commit

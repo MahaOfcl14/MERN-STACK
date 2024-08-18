@@ -1,0 +1,12 @@
+Deployment
+-Serverless
+-Server based
+
+
+Serverless Deployment
+
+Git hub => github pages => setting => pages =>go to none ah master kuduknum save pananum
+Ella code um build aagum
+
+Settings => pages => link get
+

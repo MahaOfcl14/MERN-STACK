@@ -30,7 +30,7 @@ Color picker - FOR COLORS
                             
 Color properties :           
 1) color : value (red,blue)  
-2) color : hex(#000)         
+2) color : hex(#000) => color picker, eye dropper         
 3) color : rgb[(255,255,255)]
 
 
@@ -38,6 +38,7 @@ Color extension in chrome - Pick color eyedropper
 
 
 Text properties
+
 Font - size varying, font chan
 1) Font Family 
     -Default Font - "Times New Roman"
@@ -67,9 +68,77 @@ Select it using selector
     -center
     -end
 
+6) Font Style 
+----------------------------------------------------
+Background properties
+
+1) Background color 
+-Background-color : green;
+
+ We are applying image as bg then why we need bg color..??
+
+2) Background Image
+ -background image : url("path")
+ height-100px
+bg image ku height mention panamaa bg img paaka mudiyadhu, So height is mandatory
+Content potutu bg-img kudutha adha wrap panura alavuku indha bg-img varum
+bg img ku mela text potuka mudiyum but normal image ku mela text poda mudiyadhu
+
+3) Background-size
+bg-size (height*width)
+-cover => Eg(500*500) Complete ah eduthukum
+-contain (Same opposite) (kudukra space la full ah eduthukum)
+-default auto
+height matum kuduthaaa default width ah eduthukum
+Evlo width height specify panramo adhula dhan ocuppy panikum
+
+SIZING
+-intensive SIZING => default (Block = Full width eduthukum(p,div)) (Inline = image,span (What it needed))
+        p-full width 
+-extensive sizing => it can be any element with specifying the height and width externally 
+        namba solra width and height dhan
+
+SPAN TAGS
+oru paragraph la particular word ku color or style kuduknumnaa span tag la wrap paniknummm
+<p class="pstyle"><span class="style-span">Hello</span></p>
+.style-span{
+    color:red;
+}
+.pstyle{
+    color:yellow;
+}
 
 
-Text properties
+4) Background - Repeat
+bg img repeat aga kudadhunaaa 
+background-repeat : no-repeat
 
+5) Opacity
+Starts from 0 to 1, color oda intensity ah kammi panradhu
+opacity : 0-1; 
+There is no 1.5 in opacity
+-------------------------------------------------
+BOX MODEL 
+Oru oru tag kum box form aagum  
+-width
+-height
+-margin
+-padding
+-Border
 
-Colors and Background
+1) Width 
+What - Left to Right 
+Why - To give some size in left to right
+How - width : 100px
+            -1em = 16px
+            viewport width = Full screen width(left to right)
+                    width : 100vw;
+Advance - 
+
+2) Height 
+What - Top to bottom
+Why - To give some size 
+How - height : 100px;
+      height : 10rem;
+      height : 100vh;
+Adv - 

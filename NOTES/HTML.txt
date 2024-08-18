@@ -61,7 +61,7 @@ Emmet => Shortcut to create boiler plate
         MEDIA BASED TAGS
 
 
-Image - Self closing tag, having 2 Attributes called src and alt
+Image - Self closing tag(Another name of self closing tag - Void element), having 2 Attributes called src and alt
  <img src="Path" />
  if any mistake in path mean we have to give alt
  <img src='' alt=""/>
