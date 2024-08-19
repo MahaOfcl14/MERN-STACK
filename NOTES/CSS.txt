@@ -142,3 +142,42 @@ How - height : 100px;
       height : 10rem;
       height : 100vh;
 Adv - 
+
+3) Margin 
+Rendu object ku naduvla space varnumnaa (outside the element).
+.para{
+    margin : 50px;
+}
+
+Oru rendu content ku naduvla space varnumna - margin
+Ipo padding margin common ah kudutha l,r,t,b apply agum
+To specify position - margin-right:51px
+
+margin : top, bottom, left, right;
+margin : 10px 20px 50px 60px
+
+
+4) padding
+Word disturb aagama inner la space varnumnaa(padding)
+.para{
+    padding : 10px;
+    //padding-top
+}
+Oru content ku ulla space varnumnaa - padding
+
+5) Border
+Border style - Must, solid, dashed,
+.para{
+    border: solid;
+    border-width: 1px;
+    border-color : yellow;
+}
+for button we can apply border radius
+Border radius => to make curve shape
+.btn{
+    border: solid;
+    border-color: brown;
+    border-radius : 10px
+}
+To make circle 
+height, width, border-radius

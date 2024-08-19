@@ -1,0 +1,17 @@
+First project ah style pana kudaadhu 
+
+First Typography, colors, assets select paniknum...
+
+class selector so .
+Font => google font => poppins
+Get font, 
+Font-weight => Bold thickness
+ Next para styling
+ font Family =>
+ text alignment =>
+ font-weight
+ font size
+ 
+ Next button,,
+ bg color
+ width, height, 
