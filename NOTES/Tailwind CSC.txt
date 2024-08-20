@@ -1,0 +1,39 @@
+Normal CSS - Component based Approach - Bootstrap
+           - Utility class based Approach - Tailwind
+
+CDN - nearest region la irundhu data load aagum 
+link Bootstrap's CDN file
+Already hard coded, so we doesn't customize
+Bootstrap la panna ella website um orey mari irukum
+
+So namba Tailwind use panrom
+Tailwind CSS:
+it is customizable
+Should not use Tailwind Css and Bootstrap in a same project
+
+Link tailwind to html via CDN given in the website
+but can use via local approach (by downloading the file and linking)
+ 
+Best Approach = CDN 
+Extension to download in VS code => Tailwind Docs, Tailwind CSS intellisense
+Tailwind => Go to get started => tailwind CLi in tailwind => copy the content....paste to the file which has to be under Root of the folder la index ku keela vara mari oru file create paniknum
+
+
+Property         Normal CSS             -   Tailwind CSS
+
+Color      - color : red or #000    -   <p class ="text-red-500">hello</p>
+                                      indha text kulla enna color venalum kuduklaam 
+                                      text-[greeen,red]
+
+Text        -   text                 - 
+font-family : "Poppins"            - font-serif (custom ah venumnaa [google font]) => font-[poppins]
+font-size   : 50px                 - text[10px] or md,sm,lg
+text-weight : 100 - 900            - font-light,bold or font-[100] 
+text-decoration : underline        - under-line
+text-align : start                 - text-end or text-start-text-center  
+
+Background  -
+
+Box Model   -
+
+      
