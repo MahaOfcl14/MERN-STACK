@@ -15,7 +15,7 @@ Selectors : It helps to select the HTML to stylesheets
 -universal
 -pesudo
 
-CLASS :(.)
+CLASS : (.)
 .heading{
     color : green; //Declaration 1
     padding : 0px; //declaration 2
@@ -181,3 +181,22 @@ Border radius => to make curve shape
 }
 To make circle 
 height, width, border-radius
+
+LAYOUT 
+-flex - oru element ah page kula move pananum(row/col)
+-Grid
+
+        FLEX
+STEP-1 : To add the keyword "flex" (Default direction - row)
+STEP-2(optional step) : Choose direction row/column
+STEP-3 : justify-content - start center end between around
+         Align items - start center end between around
+
+To move by direction specific
+ROW                  | Column
+row - justify content|row - Align-items
+col - Align-items    |col - justify-content
+
+Main axis - object ku parallel ah irukardhu Main
+Cross axis - perpendicular ah irukardhu 
+

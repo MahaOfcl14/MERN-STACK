@@ -1,0 +1,52 @@
+.bg{
+    font-family: "Roboto", sans-serif;
+    color: white;
+    background-image: url(https://ik.imagekit.io/ajql7av7t/Assignment/todolistbg.png);
+    background-repeat: no-repeat;
+    height: 700;
+}
+.h1{
+    padding-left: 100px;
+    padding-right: 100px;
+
+}
+.para{
+    font-size: 15px;
+    text-align: center;
+    margin-left: 5px;
+    margin-right: 1050px;
+
+}
+
+.para2{
+    text-align: left;
+}
+.para3{
+    font-size: 15px;
+    text-align: left;
+}
+.btn{
+    background-color: #FFA61D;
+    color: white;
+    font-weight: 600;
+    margin-top: 3px;
+    margin-bottom: 3px;
+    margin-left: 120px;
+    margin-right: 120px;
+    padding-left: 15px;
+    padding-right: 15px;
+    padding-top: 4px;
+    padding-bottom: 4px;
+}
+.anchor{
+    color: white;
+    font-size: x-small;
+
+    margin-left: 100px;
+    margin-right: 100px;
+    
+}
+
+
+
+

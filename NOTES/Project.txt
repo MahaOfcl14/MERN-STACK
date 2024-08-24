@@ -15,3 +15,6 @@ Font-weight => Bold thickness
  Next button,,
  bg color
  width, height, 
+
+
+ 
