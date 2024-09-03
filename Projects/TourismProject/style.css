@@ -1,0 +1,13 @@
+.bg{
+    background-image: url(https://img.freepik.com/free-vector/beautiful-beach-design_1176-266.jpg);
+    height: 600px;
+    width: 400px;
+    background-repeat: no-repeat;
+}
+.bg-page2{
+    background-image: url(https://img.freepik.com/free-photo/beautiful-vertical-shot-taj-mahal-building-agra-india-cloudy-sky_181624-16913.jpg);
+    background-repeat: no-repeat;
+    width: 400px;
+    height: 600px;
+    
+}
