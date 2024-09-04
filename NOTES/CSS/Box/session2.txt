@@ -1,0 +1,41 @@
+Box sizing:
+Properties in box model => margin, padding, border, width, height
+(Don't include padding and border coz it affects the box margin won't affect)
+Padding, border kudutha height n width increase pannum
+Margin - involve eh aagadhu
+
+Box sizing:
+-Content box - default 
+-border box - (border won't affect box)
+
+Cursor pointer => To enhance user experience
+<button type = "button" class="Cursor-pointer bg-purple-300 px-3 py-5"></button>
+
+Shadow
+Box shadow - full ah cover aaguradhu (Back side la full ah varum)
+<button class=" shadow -2xl shadow-black bg-purple-300 px-3 py-5"></button>
+Drop shadow - (default color la shadow varum, Exact ah irukum spread aagama)
+<button class=" drop shadow -2xl drop shadow bg-purple-300 px-3 py-5"></button>
+
+Sizing:
+-Intensive - Default sizing 
+                    block elements(Full space eduthukradhu) => div, p
+                    inline elements (Wanted space matu eduthukradhu) => img, span
+-Extensive - width or height kuduthaa override aagudhula 
+ <p>w-150px h-150px </p> 
+ Problem => Overflow 
+ Solution => 
+    -visible
+    -hidden(some cases will okay keela ulla content ellam maranjidum)
+    -auto - (side la dhan scroll varum)
+    -scroll -(Side la keela varum so better to usse auto)
+
+Media Query: 
+Genral ah 0px - 639px potaaa 
+sm => phone min-width : 640px - 769px
+md => tab min-width : 768px - 1023px
+lg => lap min-width :1024px -1279px
+xl => tv min-width :1280px-1535px
+
+Transitions:
+animista

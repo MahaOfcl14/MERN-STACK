@@ -1,0 +1,19 @@
+*{
+
+    padding: 0;
+    margin: 0; 
+    box-sizing: border-box;
+    /*defualt ah browser la iruka margin and paading vendam nu solradhu namba kudukra size only eduthukum*/
+}
+.bg-box-1{
+    width: 100px;
+    height: 100px;
+    background-color: red;
+    /*padding kudutha it becomes 110px (100+5)(100+5)*/
+}
+.bg-box-2{
+    width: 100px;
+    height: 100px;
+    background-color: blue;
+    /*padding kudutha it becomes 110px (100+5)(100+5)*/
+}
