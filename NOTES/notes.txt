@@ -1,0 +1,44 @@
+Section : semantic element for SEO purposes 
+To divide the section
+common steps:
+Container (2xl:Container mx-auto)
+(w-[90] mx-auto grid grid-col-1)
+
+Healthy section :
+Screen width (mobile,tab,lap) to be noted
+mobile - 1 
+Tab - 2
+lap - 2
+=> grid grid-col-1 md:grid grid-cols-2 (lap size need not to be mentioned)
+shortcut(div) - equal to cols
+How to center image (flex flex-col justify-center items-center)
+
+Default Code
+<section class="py-5">
+    <div class="2xl:container mx-auto">
+        <div class="w-[90%] mx-auto grid grid-cols-1 ">
+
+        </div>
+
+    </div>
+</section>
+
+Explore Section
+mobile :1
+Tab: 2
+Lap:4
+
+Payment section
+mobile :1
+Tab: 2
+Lap:2
+TV : 2
+
+Order property used to change the Order=> small to big concept
+=>  <div class="flex flex-col justify-center items-center order-1 md:order-2">
+content:
+Phone -2
+tab-1
+image:
+Phone-1
+tab-2
