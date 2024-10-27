@@ -1,0 +1,23 @@
+Hooks - Normal Js function developed by react Developers
+    -usestate 
+        (*) It is a function developed by react Developers
+        (*) It will update the values on variable and UI at same time -------> for this operation we need setter function 
+        (*) It will return two values (cuurentState, setterFunction)
+    SYNTAX :
+        let [cuurentState, setterFunction] = useState(initialValue)
+            -InitialValue 
+                (*)It can be an int, Bool, string, Array as well as object
+
+            -CurentState
+                (*) If the variable is not depend on previous value - Normal
+                (*) If the variable is depend - Call back function
+
+To get input in JS we use addEventListener -To display values while writing code
+In react for this we use, 
+Input --> Onchange() 
+Button --> Onclick()
+
+Onchange :
+        onChange={(e)=>{
+            console.log(e.target.value) }}
+

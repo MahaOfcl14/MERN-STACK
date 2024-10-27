@@ -1,0 +1,76 @@
+                Folder Structure:
+If there are 1000 Components mean we have to place each component under the folder called Component
+-create a folder for each component and create a File inside the component
+-Component name should be same as File name
+
+                        Imports & Exports
+kuduthaa dhan vaanga mudiyum (So export panitu import pannanum)
+-default Exports & imports
+-Named exports & imports
+
+Default exports : only one module can be imported and exported
+export default Header
+Default Import :
+import Header from "path"
+import pakathla enna name venaa kuduklaam but export la kudutha name kudukradhu best practice
+
+        Modularity - code ah correct ah pirikardhu...
+
+Named exports and imports
+-If there are same datasets with multiple names like productCardData, productCardData1=> named exports & import comes there
+        Named Export
+-add the word export before the array declaration
+        Named Import
+-import {productCardData} from "path"
+
+
+
+
+HOOKS :
+-It is a normal javascript function/Methods by React Developers -(2 libraries -React---->createElement and -ReactDOM-->Render method)
+        -useState()
+        -useEffect()
+-How to handle events in react 
+    in Js (addEventListener)
+    in react (Onclick) is used to handle event
+React la direct ah DOM manipulation panna kudadhu..
+
+
+
+const Counter = () =>{
+    let value = 0
+    return(
+        <>
+        <div>
+           <p>Counter</p> 
+           <p>{value}</p>
+           <button 
+           className="bg-slate-400 py-2 px-3"
+           onClick={()=>{
+            value = value+1
+            console.log(value) --------------------> Value increment but UI la Change aaagla bcoz refresh aagla so we have to refresh using useState
+           }
+
+           }>Add</button>
+            
+        </div>
+
+        </>
+    )
+}
+export default Counter
+
+                USESTATE : To update variable and UI simulatenously
+-Solved problem of refreshing the web page
+-variable and UI should also update 
+-So we never going to use variables directly in react -----> ipdi panna react la dynamic ah value increment or decrement aagadhu so react used Local state variable
+-instead of that we are using local state variable
+
+Steps:
+-import {useState} from "react"
+-let[values,SetValues] = useState(0)  -------> use state will return values and SetValues
+                -Setter function -  updates the values on the UI
+
+Multiple Cards render aagumbodhu endha data ah edhoda map pananumnu epdi react ku theriyum so we are using (Key) --> it should be unique
+We can use key in three types --> Key (index) & (id)
+UUID - Install this package

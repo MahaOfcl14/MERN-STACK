@@ -1,0 +1,57 @@
+
+It is complicate to create element using createElement. So React introduced JSX
+JSX - Html like syntax OR xml like syntax
+Components: It is an normal JS function which returns piece of JSX 
+    -NavBar
+    -Footer
+
+{} => idhu pathale return nyabagam varnum
+
+3 Golden rules for creating functional Components
+-All the functional word should be start with Upper case letter (endha JSX um return panlanaa idhu nml function epo jsx return panudho apo dhan COmponent)
+-One function Component can return only 1 element 
+        -so to over come this  
+                -wrap it inside div
+                -ReactFragments <> content </>
+-Always should return a JSX
+
+
+3 Golden rules for Rendering functional Components
+-Calling the name for render
+-Header()
+-<Header/> -----> Most used way 
+-<>Header</>
+
+
+ES6 - Not mandatory for React but it's highly recommended (Arrow function)
+
+        Component Pattern
+Also called as composition pattern
+
+Component composition - calling a functional component inside the functional component 
+
+EG:
+import ReactDOM from "react-dom"
+const HeadingElement = <h1 className="bg-red-400">Hello</h1>
+const root = ReactDOM.createRoot(document.getElementById("root"))
+
+const Header = () =>{
+    return(
+        <p>HEyVite</p>
+    )
+}
+const Footer = () =>{
+    return <p>Footer</p>
+}
+const Body = () =>{
+    return (
+        <>
+        <Header/> 
+        <Footer/>
+        </>
+    )
+}
+root.render(<Body/>,root)
+
+
+

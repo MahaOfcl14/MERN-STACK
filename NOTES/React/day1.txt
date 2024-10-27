@@ -1,0 +1,69 @@
+React :
+Library => provides some methods and properties(Methods are nothing but functions)
+-To acheieve the DOM manipulation faster we are using react
+-Super fast in DOM manipulation
+
+1st => html static
+2nd => to change dynamic use js
+
+How to install react in code VIA:
+
+   (1) LOCAL:
+Instead of CDN will use the downloaded Local file 
+1000 package use panumbodhu oru package update aanalum manual ah namba change pananum so better to go with package manager.
+
+    (2) CDN:
+- React CDN link, copy the 2 script files (oru oru tym um network call nadandhu render aagum so not applicable.. ipo version update aana indha cdn link use pana mudiyadhu updated link ah maathnum)
+- two types 
+        -Production - compressed version of react
+        -Development - used in the development phase of code.. not much differenece
+  -How to check whether it installed in our code or not -> inspect - console - type react and enter
+
+
+  function in react :
+    createElement() - to create element
+    render() - to perform dom manipulation & coming from react.development
+
+    Dynamic ah elements ah create panrathuku react use pana porom. render um react la use pana porom. ivlo naal static ah pannom ippo dynamic ah panna porom.
+
+    (3) Package manager 
+     -It will handle all version using - npm, pnmp, yarn
+- npm (node modules kulla files lam vaikum)
+
+    -npm init => package.json (installed packages are there) 
+                 -dependency - install in entire production
+                 -devDependency - installed in our computer only
+   How to install package using packagemanager -npm i <package-name> 
+                -Node modules (It will store all files)
+                -package-lock json (Current version shows)
+    -^ carat sign -minor updates in version - 18.0.0 to 18.0.1
+    ~ - major updates in version - 18.0.0 - 19.0.0 
+
+  function in react :
+    createElement() - to create element
+    render() - to perform dom manipulation & coming from react.development
+
+    Dynamic ah elements ah create panrathuku react use pana porom. render um react la use pana porom. ivlo naal static ah pannom ippo dynamic ah panna porom.
+
+------------------
+DEPENDENCIES :
+    - All packages are only installed in production server 
+dev Dependency:
+    - All packages are only used in development
+
+how to install a package in Dev dependency :
+    npm -i D <packagename>
+    
+
+
+
+
+
+
+--
+"h1",null,"Hello World"
+h1-tag name 
+null-
+helloworld - content
+
+

@@ -1,0 +1,46 @@
+
+Use state - UI and variable to gets updated without refreshing by creating local variable
+            let(value,setValue) = usestate(10)        ---------> setValue la set podnumnu MAndatory kedyadhu but industry practice
+            The local variable (10) can be in any type (Int bool String Array object)
+            calling the usestate => setValue(...) <------ Indha paranthesis kulla argument pass pannanum (..)
+
+2 types of Arguments --> Direct (Normal value) and Call back function
+
+    1)Direct - It will updates the value directly, It is used when there is no use of previous value
+    2)Call back function - It is used if previous value is needed
+
+Direct Approach - Variable only gets updated
+
+let [values, SetValues] = useState("Hello") //usestate return two things called values and setter values
+
+    return(
+        <>
+        <div>
+           <p>Counter</p> 
+           <p>{values}</p>
+           <button 
+           className="bg-slate-400 py-1 px-3"
+           onClick={()=>{
+            SetValues("Hey Maha") //Calling setter values to update the local state variable dynamically in UI -----> Direct Approach
+            console.log("--->",values)
+
+
+Update the value only by calling setval function by passing value inside it
+
+Call back function:
+    -2 arguements irukunaa Oru arg ah matu update panromnaa apo inoru arg poidum so we need call back function
+    -Mostly indha function Object and array ku dhan use panvom
+    
+let [values, setValues] = useState({name:"", city:""}) //2 arguments name and city -------> Cll back fn example
+
+
+         onClick={()=>{
+//Call back fn
+            setValues((items)=>( //Inga return bracket popdama () idhu use pananum
+                {...items ,name:"Hello" }//Correlating map (spread function)
+            ))
+
+--------Explanation----------
+Inga name oda value update aagnum at the same time city vanish aaga kudadhu so we r using Call back fn
+
+

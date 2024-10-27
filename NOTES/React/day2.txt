@@ -1,0 +1,46 @@
+Bundlers 
+-Oru 1000 LINES of code ah kuduthaa executable form la kudukum 
+Eg:
+zoom app ----->.exe(installed format in lap)------------>Zoom
+           |----->.apk(installed format in mobile)
+
+Webapp(React la panra elame web app)
+React--------------->Server
+(1000 lines of code) combined ah server la install agiruknum
+.exe ah irukapo namba etxtract pani elam pananumna mudyadhu so bundler comes
+
+JS ----->Bundlers------->.exe
+         -Web pack(npx react default one for react) Slow compared to other two
+         -Parcel(famous)
+         -Vite
+
+React app ah customer ku kuduknunna bundler use pananum
+
+        Steps
+Install parcel via npm - npm i parcel
+-search parcel in npm
+-Execute - npx parcel index.html (index.html entry name)
+-How to bundle => npx parcel bundle (adhuve entry point eduthukum)
+
+How to start application with parcel
+-ipo start or execute pananumnaaa npx <package name>
+-Local ah oru server create panum
+ 
+=> type = "modules" :
+-import lam new version of js la dhan irukum so type module apdigra attribute use pani After ES6(newer js version use panromnu solrom browser ku)
+Browser ku theriyadhu so new nu sollnum browser ku namba
+
+Advantages of parcel
+-hot model reloading(Liveserver)
+
+-dev server creating
+-Error diagnosis
+-Compressing our app and give executable format which is super fast
+-.parcel-cache =>
+-dist => bundle o/p
+-lazy loading - split pani send panlaam, profile, resume,project each page ah nmba split pani send panlam(/profile,/resume)
+-Tree shaking - Automatically remove unwanted things
+-minification - compress app 
+-image optimization 
+-
+

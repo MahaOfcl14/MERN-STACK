@@ -1,0 +1,99 @@
+npm run dev - to start server
+Ctrl+c - to stop server
+
+Only one component can be render at a time so wrap a layout like
+const Body = () =>{
+    return (
+        <>
+        <Header/> 
+        <Footer/>
+        </>
+    )
+}
+root.render(<Body/>,root)
+-------------
+//product component
+const Body = () => {
+    return (
+        <>
+        <ProductCard/>
+        <ProductCard/>
+        <ProductCard/>
+        </>
+        
+
+    )
+}
+evlo times call pannaalum static content dhan return aagum so component ah dynamic ah change panna props use panrom
+
+
+
+props - shortform of property (object)
+
+What is props?
+    - Key value pair to change the content dynamically
+    - Similar to object
+
+Why props ?
+To change the component dynamically while calling the component
+
+How to create a Props ?
+    - can create n number of logs
+const Body = () => {
+    return (
+        <>
+        <ProductCard brand="Apple" title="Appple keyboard" price="4000"/>
+        <ProductCard/>
+        <ProductCard/>
+        </>
+    )}
+
+How to receive the props ?
+-declaring props inside the arrow fn is similar to fn as object
+
+const ProductCard = (props) => {
+    return (
+<>
+</>
+    )}
+    const Body = () => {
+
+ return (
+        <>
+        <ProductCard brand="Apple" title="Appple keyboard" price="4000"/>  -----------> inga send panra ellame objects ah return aagum objects can be accessed using 2 methods {} and . notation
+        <ProductCard/>
+        <ProductCard/>
+        </>
+    )}
+
+How to render props?
+- using {}
+
+
+LIST :
+-Similar to array
+-To access array use Map concepts in JS (To use JS in react use -------> {}) 
+
+    <>
+        <ProductCard/>
+        <ProductCard/>
+        <ProductCard/>
+    </>
+Ipdi oru 70 cards call pananumnaa mudiyadhula so array  la store pannanum.  
+
+List creation
+-const Arrayname = [
+    {name:maha,
+    gender:female
+    },
+    {
+        name:"arun",
+        gender:"Male",
+    }
+];
+
+Access List/Array 
+-map method is used
+
+Unique key value has to be given for dynamic dom manipulation 
+Unique key needed while re-rendering.
