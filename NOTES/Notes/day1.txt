@@ -1,0 +1,74 @@
+Backend --- Data, Server Database
+
+
+Express : 
+
+    Three important concepts
+
+(1) Routers
+(2) Middlewares
+(3) MVC Architecture
+
+HTTP can be created in any languages (not can be created in JS upto Node JS introduced)
+
+ (*) NODE
+
+Node - Javascript run time Environment
+Can write code for backend alsoo
+
+Package Manager  - npm, yarn, pnpm
+
+             NPM :
+To initialize - npm init --------> package.json created ---->2 dependecies will be created ---> Normal and Dev dependency
+            Default ah install panra elaa package um Normal dependency la irukum...
+            To create a package in dev dependency --->npm i -D packageName
+
+To install a package - npm i package name --------> node_modules & packagelog.json created
+
+Basics of Node JS:
+
+(1) OBJECTS - Global object & Windows and Local object 
+    front end la enna create panalum windows irukum
+    Backend la not defined
+    windows nu onnu backend la illa, Front end la windows backend la global
+    Anonymous ah create panaa frontend la windows la store aagum backend la global ah store aagum
+
+(2) MODULES - calc.js 
+        - 4 modules like add,sub,multi,div ---> if there are 1000 modules like this then we can use modularity
+    MODULARITY - Splits modules into submodules
+               - Default Import & Export - To use newer syntax like after ES6 we have to use [ common JS ] as .mjs or use typescript
+
+(3) TYPES OF MODILES
+    -Custom modules - modules created by us
+    -Third party modules - modules published in npm to get converted into third party module
+    -Core modules
+
+THIRD PARTY MODULES :
+    First EXport then only import (export pannama import panna work aagadhu)
+    Add your
+     main:filename (entry point) in Package.json 
+    Package name should be unique
+In Terminal :
+    npm adduser
+                    ---Browser Redirect aagum andha code ah inga copy pani podnum 
+    npm publish
+                    ---Package published as Third party modules in node, check in node community for this package
+
+
+(*) Install node with (v20th version bcz new versions are under development)
+How to run node in terminal ------> node filename
+in backend every .js file is called as module
+
+
+First step - configure server ------> HTTP server (created by js)
+
+HTTP server - Handle incoming req and send response can alsoo do External req
+
+
+
+
+
+
+
+
+

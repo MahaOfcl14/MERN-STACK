@@ -1,0 +1,7 @@
+Client Req --- Req method is must 
+                -get
+                -post
+                -put
+                -del
+Res --- send
+        json

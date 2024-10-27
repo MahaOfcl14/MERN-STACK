@@ -1,0 +1,77 @@
+             Ref(core.js)
+
+Core Modules :
+It's already installed while you're downloading the node
+So We don't need to install the core modules
+But must have to import
+Example - Os module, Path module
+
+
+HTTP Server ---> To handle REq and Res
+
+Client sends Req for DATA to SERVER
+SERVER will send Req to DATABASE
+DATABASE Responds HTTP Server
+
+Creating HTTP SErver in JS (NODE)  :
+const server = http.createServer((req,res)=>{
+                                                    --- req, res ah maathi potra kudadhu
+                                                    --- We have to write lots of boiler plate Logic here so EXPRESS framework introduced
+
+        EXPRESS :
+
+Why we are choosing Express..?
+
+    -Fast & Roust App
+    -Middlewares
+    -Routing
+    -Scalability
+
+Refer Express Folder
+
+Express is an web framework for NodeJs 
+Node JS Run time environment is mandatory to run the JS file
+We run Express in this Node
+
+To Install Express
+npm init
+npm install express
+
+How to create Express Server :
+const express = require("express") //Importing Express
+//Creating Instance
+const app = express() //calling the express function
+app.listen(3000)
+
+
+Rules:
+    (1) REQUEST METHODS
+-get ---> get data in DB
+-post ---> Add data in DB
+-put ---> updates the data in the DB
+-del ---> Del data in DB
+
+    (*) API's or Endpoints or URL's
+
+
+
+
+    (2) RESPOND METHODS
+Can send Data
+
+    (*) send() -----> String
+    (*) Json() -----> {}
+
+
+
+NodeMon: 
+To reduce error of reloading (Hot model reloading)
+
+        POSTMAN
+choose get method and check
+without browser you can check
+
+Order of Execution:
+Top to Bottom Execution
+compares method first
+Req Method---> checks API or Edpoints ----> call back function
